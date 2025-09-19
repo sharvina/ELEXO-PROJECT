@@ -1,0 +1,13 @@
+.topbar_elexo {
+    height: 50px;
+    color: $white-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $black-color;
+    a{
+        color: $gold-color;
+        margin-left: 10px;
+        text-decoration: underline;
+    }
+}

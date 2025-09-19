@@ -1,0 +1,48 @@
+@import "../../styles/variables.scss";
+
+#navbarNav{
+    padding: 10px 20px;
+    ul{
+        margin: 0;
+    }
+}
+.navbar{
+    border-bottom: 1px solid $border-gray;
+    .nav-link{
+            color: $black-color;
+            font-weight: 400;
+            font-size: 16px;
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            &:hover{
+                color: $red-color;
+                text-decoration: underline;
+            }
+        
+    }
+    .search_container{
+        position: relative;
+        .search_icon{
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            color: #888;
+
+        }
+        input{
+            border: 0;
+            border-radius: 2px;
+            padding: 5px 15px;
+            width: 250px;
+            background-color: $bg-gray;
+            &:focus{
+                outline: none;
+                border-color: $primary-color;
+                box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+            }
+        }
+    }
+}

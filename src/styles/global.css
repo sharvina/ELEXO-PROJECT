@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f9fafb;
+  color: #64748b;
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: poppins, sans-serif;
+  font-style: normal;
+}
+
+label,
+ul,
+ol,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 4rem;
+  line-height: 100%;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 3.75rem;
+  line-height: 4.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 3.75rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  font-weight: 700;
+}
+
+P {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+a {
+  font-size: 1rem;
+  line-height: 100%;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  color: var(--link-colr);
+}
+
+.wrapper {
+  /* padding:0 9.375rem; */
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn_tag {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.btn_primary {
+  background-color: #DB4444;
+  color: #fff;
+  border: 1px solid #DB4444;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.btn_primary:hover {
+  background-color: #fff;
+  color: #DB4444;
+}
+.btn_primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.5);
+}
+
+.btn_secondary {
+  background-color: transparent;
+  color: #DB4444;
+  border: 1px solid #DB4444;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.btn_secondary:hover {
+  background-color: #DB4444;
+  color: #fff;
+}
+.btn_secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.5);
+}/*# sourceMappingURL=global.css.map */
