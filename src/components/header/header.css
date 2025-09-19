@@ -5,9 +5,10 @@
   margin: 0;
 }
 
-.navbar {
+.border_bottom {
   border-bottom: 1px solid #d7d7d7;
 }
+
 .navbar .nav-link {
   color: #000;
   font-weight: 400;
@@ -40,6 +41,6 @@
 }
 .navbar .search_container input:focus {
   outline: none;
-  border-color: #2563eb;
+  border-color: #1f1f1f;
   box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
 }/*# sourceMappingURL=header.css.map */

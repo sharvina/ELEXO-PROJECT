@@ -6,8 +6,11 @@
         margin: 0;
     }
 }
-.navbar{
+.border_bottom{
     border-bottom: 1px solid $border-gray;
+}
+.navbar{
+    
     .nav-link{
             color: $black-color;
             font-weight: 400;

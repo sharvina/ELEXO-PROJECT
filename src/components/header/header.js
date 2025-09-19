@@ -10,11 +10,11 @@ function Header() {
     // Import the logo image from the images folder
 
     return (
-        <div>
+        <div className='border_bottom' >
             <div className='topbar_elexo'>
                 <span>Welcome to Elexo! Enjoy exclusive deals today.<a href="#shop" className="landing-offer-link">Shop Now</a></span>
             </div>
-            <nav className="navbar navbar-expand-lg navbar-light ">
+            <nav className="navbar navbar-expand-lg navbar-light container ">
                 <a className="navbar-brand" href="#">
                     <img src={logo} width={200} height={200} alt="Logo" />
                 </a>
