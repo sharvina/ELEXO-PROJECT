@@ -12,8 +12,7 @@
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
-  background: #f9fafb;
-  color: #64748b;
+  background: #f9fafb !important;
 }
 
 html {
@@ -133,7 +132,7 @@ button {
 }
 .btn_primary:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.5);
+  box-shadow: 0 0 0 3px rgba(31, 31, 31, 0.5);
 }
 
 .btn_secondary {
@@ -151,5 +150,5 @@ button {
 }
 .btn_secondary:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.5);
+  box-shadow: 0 0 0 3px rgba(31, 31, 31, 0.5);
 }/*# sourceMappingURL=global.css.map */

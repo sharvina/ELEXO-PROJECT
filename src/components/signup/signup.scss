@@ -1,16 +1,35 @@
 @import "../../styles/variables.scss";
 
 .signup_container{
-    .left_side{
-        width:55%;
+      background: #ffffff;
+      padding: 20px;
+     .banner_section{
+        width:45%;
+        position: relative;
         img{
             width:100%;
-            height:100vh;
+            height:100%;
             object-fit:cover;
+            -webkit-clip-path:polygon(0% 12.25%, 22.65% 10.25%, 7.65% 0, 101% 0%, 100% 98.82%, 91.56% 91.82%, 79.56% 100%, 0 100%);
+            clip-path: polygon(100% 100%, 100% 100%, 44.5% 100%, 100% 100%, 100% 68.38%, 74.75% 100%, 72.25% 100%, 99.64% 55.36%, 99.72% 64.87%, 100% 0%, 34.25% 0%, 17.38% 16.83%, 0% 33.66%, 0% 0%, 31.7% 0%, 0% 23.5%, 0% 93.5%, 63.44% 55.69%, 94.5% 0%, 100% 0%, 0% 100%);
+            filter: blur(2px);
         }
+        h2{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 47px;
+            line-height: normal;
+            font-weight: 300;
+            width: 100%;
+            padding: 30px;
+}
+        
     }
-    .right_side{
-        width:45%;
+    .form_section{
+        width:55%;
         padding:0 5rem;
         h2{
             font-size:2.5rem;
